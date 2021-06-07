@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+}
+
+a {
+    border: 1px solid #0000ff;
+}
+
+a:not(.link-share) {
+    border-radius: 10px;
+    padding: 10px;
+}
+
+article {
+    border: 8px solid #0000ff;
+    height: 100%;
+    margin: 0;
+    padding: 5%;
+    width: 50%;
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+}
+
+h1 {
+    color: #0000ff;
+    border-bottom: 1px solid #0000ff;
+}
+
+p {
+    margin-bottom: 8%;
+}
+
+.link-share {
+    border-radius: 8px;
+    bottom: 8%;
+    left: 5%;
+    padding: 8px;
+    position: absolute;
+}
+
+.span-positioned {
+    border: 1px solid #ff0000;
+    border-radius: 100%;
+    color: #ff0000;
+    display: block;
+    font-size: 16px;
+    height: 60px;
+    left: 420px;
+    line-height: 60px;
+    text-align: center;
+    text-transform: uppercase;
+    top: -60px;
+    position: relative;
+    width: 60px;
+}
